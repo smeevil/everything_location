@@ -2,6 +2,13 @@
 Everything Location is as SAAS that can verify the correctness of and address, update or correct values, and return a certainty of those values. This will also return a formatted address according to the rules of the country of that address. 
 For more information see : https://www.everythinglocation.com
 
+Please define your Everything Location API key in your Application env, either via:
+```Application.put_env(:everything_location, :api_key, "MY_API_KEY")```
+or when using phoenix in your config.exs
+ ```
+ config :everything_location, :api_key, "MY_API_KEY```` 
+   
+
 ## Example
 ```iex
   iex> EverythingLocation.verify("baastion 16, 3833BP Amersfuurt, NL)

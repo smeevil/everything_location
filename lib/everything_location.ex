@@ -60,7 +60,7 @@ defmodule EverythingLocation do
   defp format_result(error), do: error
 
   defp insert_api_key_if_missing(options) do
-    Map.put_new(options, :api_key, Application.get_env(:EverythingLocation, :api_key))
+    Map.put_new(options, :api_key, Application.get_env(:everything_location, :api_key))
   end
 
   defp create_changeset(options) do

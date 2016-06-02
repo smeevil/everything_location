@@ -4,7 +4,7 @@ defmodule EverythingLocationTest do
 
   setup_all do
     ExVCR.Config.cassette_library_dir("fixture/vcr_cassettes")
-    Application.put_env(:EverythingLocation, :api_key, "test")
+    Application.put_env(:everything_location, :api_key, "test")
     :ok
   end
 
