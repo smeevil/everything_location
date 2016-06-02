@@ -1,0 +1,204 @@
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.11.5">
+    <title>EverythingLocation.Options – everything_location v0.0.1</title>
+    <link rel="stylesheet" href="dist/app-ddd9717ad9.css" />
+    
+    <script src="dist/sidebar_items.js"></script>
+  </head>
+  <body data-type="modules">
+
+    <div class="main">
+<button class="sidebar-toggle">
+  <i class="icon-menu"></i>
+</button>
+<section class="sidebar">
+  <button class="sidebar-toggle">
+    <i class="icon-menu"></i>
+  </button>
+
+  
+  <a href="api-reference.html" class="sidebar-projectLink">
+    <div class="sidebar-projectDetails">
+      <h1 class="sidebar-projectName">
+        everything_location
+      </h1>
+      <h2 class="sidebar-projectVersion">
+        v0.0.1
+      </h2>
+    </div>
+    
+  </a>
+
+  <div class="sidebar-search">
+    <i class="icon-search"></i>
+    <input type="text" class="sidebar-searchInput" placeholder="search" autocomplete="off" />
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+    
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+    
+
+    
+
+    
+  </ul>
+
+  <ul id="full-list" class="sidebar-fullList"></ul>
+  <div class="sidebar-noResults"></div>
+</section>
+
+<section class="content">
+  <div id="content" class="content-inner">
+
+
+      <h1>
+        <small class="visible-xs">everything_location v0.0.1</small>
+        EverythingLocation.Options
+        
+        
+      </h1>
+
+      
+        <section id="moduledoc" class="docstring">
+          <p>A struct for validating the parameters before passing them to the api</p>
+
+        </section>
+      
+
+      
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <i class="icon-link"></i>
+            </a>
+            Summary
+          </h1>
+          
+
+          
+  <div class="summary-functions summary">
+    <h2>
+      <a href="#functions">Functions</a>
+    </h2>
+    <div class="summary-row">
+  <div class="summary-signature">
+    <a href="#changeset/2">changeset(model, params)</a>
+  </div>
+  
+    <div class="summary-synopsis"><p>You can pass a Map with key values which will be cast and validated for use with the EverythingLocation API</p>
+</div>
+  
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#create/1">create(error)</a>
+  </div>
+  
+    <div class="summary-synopsis"><p>Takes a EverythingLocation.Options struct and converts it to a map of key values formatted for the EverythingLocation API</p>
+</div>
+  
+</div>
+
+  </div>
+
+
+          
+
+          
+
+        </section>
+      
+
+      
+
+      
+        <section id="functions" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#functions">
+              <i class="icon-link"></i>
+            </a>
+            Functions
+          </h1>
+          <div class="detail" id="changeset/2">
+  <div class="detail-header">
+    <a href="#changeset/2" class="detail-link" title="Link to this function">
+      <i class="icon-link"></i>
+    </a>
+    <span class="signature">changeset(model, params)</span>
+      
+  </div>
+  
+    <div class="specs">
+      <h4 class="specs-title">Specs</h4>
+      <div class="specs-list">
+        
+          <pre><code class="elixir">changeset(%EverythingLocation.Options{__meta__: term, address1: term, address2: term, address3: term, address4: term, address5: term, address6: term, address7: term, address8: term, administrative_area: term, api_key: term, certify: term, country: term, enhance: term, geocode: term, id: term, locality: term, postal_code: term, suggest: term}, Map) :: %Ecto.Changeset{action: term, changes: term, constraints: term, errors: term, filters: term, model: term, optional: term, opts: term, params: term, prepare: term, repo: term, required: term, types: term, valid?: term, validations: term}</code></pre>
+        
+      </div>
+    </div>
+  
+  <section class="docstring">
+    <p>You can pass a Map with key values which will be cast and validated for use with the EverythingLocation API.</p>
+
+  </section>
+</div>
+<div class="detail" id="create/1">
+  <div class="detail-header">
+    <a href="#create/1" class="detail-link" title="Link to this function">
+      <i class="icon-link"></i>
+    </a>
+    <span class="signature">create(error)</span>
+      
+  </div>
+  
+    <div class="specs">
+      <h4 class="specs-title">Specs</h4>
+      <div class="specs-list">
+        
+          <pre><code class="elixir">create(%EverythingLocation.Options{__meta__: term, address1: term, address2: term, address3: term, address4: term, address5: term, address6: term, address7: term, address8: term, administrative_area: term, api_key: term, certify: term, country: term, enhance: term, geocode: term, id: term, locality: term, postal_code: term, suggest: term}) ::
+  %{} |
+  {:error, string}</code></pre>
+        
+      </div>
+    </div>
+  
+  <section class="docstring">
+    <p>Takes a EverythingLocation.Options struct and converts it to a map of key values formatted for the EverythingLocation API.</p>
+
+  </section>
+</div>
+
+        </section>
+      
+
+      
+
+      
+        <footer class="footer">
+      <p>
+        <span class="line">
+          Built using
+          <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" rel="help" target="_blank">ExDoc</a> (v0.11.5),
+        </span>
+        <span class="line">
+          designed by
+          <a href="https://twitter.com/dignifiedquire" target="_blank" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+      </p>
+      <button class="night-mode-toggle" />
+    </footer>
+  </div>
+</section>
+</div>
+  <script src="dist/app-918614602f.js"></script>
+  </body>
+</html>
+

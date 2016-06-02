@@ -1,0 +1,27 @@
+[
+  {
+    "request": {
+      "body": "{\"lqtkey\":\"test\",\"input\":[{\"PostalCode\":null,\"Locality\":null,\"Country\":null,\"AdministrativeArea\":null,\"Address8\":null,\"Address7\":null,\"Address6\":null,\"Address5\":null,\"Address4\":null,\"Address3\":null,\"Address2\":null,\"Address1\":\"something\"}],\"enhance\":\"on\"}",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.everythinglocation.com/address/verify"
+    },
+    "response": {
+      "body": [
+        "conn_failed",
+        [
+          "error",
+          "nxdomain"
+        ]
+      ],
+      "headers": [],
+      "status_code": null,
+      "type": "error"
+    }
+  }
+]

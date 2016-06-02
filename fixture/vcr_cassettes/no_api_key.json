@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.everythinglocation.com/address/verify"
+    },
+    "response": {
+      "body": "{\"Status\":\"Error\",\"Error\":\"No key provided.\",\"Request\":{\"protocol\":\"https:\\/\\/\",\"host\":\"api.everythinglocation.com\",\"path\":[\"address\",\"verify\"],\"method\":\"POST\",\"sourceip\":\"172.31.10.179\",\"sourcehost\":\"ip-172-31-10-179.ec2.internal\",\"accepts\":[\"application\\/json\"],\"rawcontenttype\":\"application\\/json\",\"contenttype\":\"json\",\"parameters\":[],\"httpuser\":null,\"httppassword\":\"\"}}",
+      "headers": {
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json; charset=utf8",
+        "Date": "Wed, 01 Jun 2016 13:48:15 GMT",
+        "Server": "Apache",
+        "X-Powered-By": "PHP/5.4.16",
+        "Content-Length": "373",
+        "Connection": "keep-alive"
+      },
+      "status_code": 401,
+      "type": "ok"
+    }
+  }
+]
