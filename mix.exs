@@ -4,6 +4,7 @@ defmodule EverythingLocation.Mixfile do
   def project do
     [
       app: :everything_location,
+      description: "A library to verify and complete address information via http://everythinglocation.com",
       package: package,
       version: "0.0.1",
       elixir: "~> 1.2",
